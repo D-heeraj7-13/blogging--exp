@@ -1,0 +1,21 @@
+{
+  "name": "bloggin-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js react-scripts start && open http://localhost:3000 && echo 'Hello, world!'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bloggin-site": "file:",
+    "express-fileupload": "^1.2.1",
+    "express.js": "^1.0.0",
+    "firebase": "^10.7.2",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "open": "^10.1.0"
+  }
+}
